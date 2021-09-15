@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+	width: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header{
+    font-family: 'Bebas Neue';
+    width: 100%;
+    height: 100vh;
+    font-size: 10.4vw;
+    background-image: url(img/shubham-dhage-iWI7N9x5-NY-unsplash-big2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title {
+    width: 30%;
+}
+
+#logo-lgtu{
+    height:25vw;
+    width: 20vw;
+}
+
+main{
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 10vw 0vw 7vw 0vw;
+    /* justify-content: space-around; */
+    font-family: 'Open Sans';
+    font-size: 2vw;
+}
+
+.main_title{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.info{
+    margin: 0 10vw;
+    display: flex;
+    margin: 10vw 10vw 10vw 20vw;
+    align-items:center;
+}
+
+#info-146{
+    height: 20vw;
+    width: 20vw;
+}
+
+ul{
+    list-style-type: circle;
+    width: 50%;
+}
+
+footer{
+    width: 100%;
+    /* height: auto; */
+    background-image: url(img/shubham-dhage-iWI7N9x5-NY-unsplash-big-ftr.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    font-family: 'Bebas Neue';
+    font-size: 2vw;
+    padding: 7vw 0vw 16vw 0vw;
+}
+
+.soc-net{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5vw; */
+}
+
+#img-vk{
+    height: 12vw;
+    width: 12vw;
+}
+
+#img-google{
+    height: 12vw;
+    width: 12vw;
+}
+
+@media screen and (max-width: 500px){
+    main{
+        font-size: 1.5vh;
+    }
+
+    .main_title{
+        font-size: 2vh;
+    }
+
+    #info-146{
+        height: 15vh;
+        width: 15vh;
+    }
+    
+    footer{
+        font-size: 1.5vh;
+    }
+}
