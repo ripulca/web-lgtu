@@ -64,6 +64,11 @@ main{
     align-items:center;
 }
 
+#info-146{
+    height: 20vw;
+    width: 20vw;
+}
+
 ul{
     list-style-type: circle;
     width: 50%;
@@ -87,9 +92,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-left: 5vw; */
 }
 
-#img-footer{
+.img-footer{
     height: 12vw;
     width: 12vw;
 }
