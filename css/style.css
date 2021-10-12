@@ -16,7 +16,7 @@ body{
     justify-content: space-around;
 }
 
-header{
+.header{
     font-family: 'Bebas Neue';
     width: 100%;
     height: 100vh;
@@ -32,12 +32,12 @@ header{
     width: 30%;
 }
 
-#logo-lgtu{
+.header_logo_lgtu{
     height:25vw;
     width: 20vw;
 }
 
-main{
+.main{
     width: 100%;
     /* height: 50vh; */
     display: flex;
@@ -57,14 +57,14 @@ main{
     font-size: 3vw;
 }
 
-.info{
+.main_info{
     margin: 0 10vw;
     display: flex;
     margin: 10vw 10vw 10vw 20vw;
     align-items:center;
 }
 
-#info-146{
+.main_info-146{
     height: 20vw;
     width: 20vw;
 }
@@ -74,7 +74,7 @@ ul{
     width: 50%;
 }
 
-footer{
+.footer{
     width: 100%;
     /* height: auto; */
     background-image: url(img/shubham-dhage-iWI7N9x5-NY-unsplash-big-ftr.jpg);
@@ -87,7 +87,7 @@ footer{
     padding: 7vw 0vw 16vw 0vw;
 }
 
-.soc-net{
+.footer_soc-net{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -95,13 +95,13 @@ footer{
     /* margin-left: 5vw; */
 }
 
-.img-footer{
+.footer_img{
     height: 12vw;
     width: 12vw;
 }
 
 @media screen and (max-width: 500px){
-    main{
+    .main{
         font-size: 1.5vh;
     }
 
@@ -109,12 +109,12 @@ footer{
         font-size: 2vh;
     }
 
-    #info-146{
+    .main_info-146{
         height: 15vh;
         width: 15vh;
     }
     
-    footer{
+    .footer{
         font-size: 1.5vh;
     }
 }
